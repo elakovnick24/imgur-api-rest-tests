@@ -4,36 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44cb66cc-f7af-4a3e-a95d-d5c3ba71d5eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/IDEA-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/allure-Report-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/allure-report-behavior.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/allure-report-overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/allure-serve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/git-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/java-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/junit5-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/launch-service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/rest-assured-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/swagger-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/swagger-view.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/GetAccountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetAccountTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PostImageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/avatar.jpeg" afterDir="false" />
+    <list default="true" id="44cb66cc-f7af-4a3e-a95d-d5c3ba71d5eb" name="Changes" comment="add tests and README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/account_repsonse/AccountData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/account_repsonse/UserFollow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/GetAccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/account_repsonse/GetAccountResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetAccountTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PostImageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostImageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,7 +56,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nelak/IdeaProjects/imgur-api-rest/src"
+    "last_opened_file_path": "C:/Users/nelak/IdeaProjects/imgur-api-rest/src",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -85,6 +69,43 @@
       <recent name="C:\Users\nelak\IdeaProjects\imgur-api-rest\src\test\java" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.PostImageTests">
+    <configuration name="GetAccountTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imgur-api-rest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetAccountTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAccountTests.getAccountInfoPositiveWithObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imgur-api-rest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetAccountTests" />
+      <option name="METHOD_NAME" value="getAccountInfoPositiveWithObjectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostImageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="imgur-api-rest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PostImageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PostImageTests" />
+        <item itemvalue="JUnit.GetAccountTests.getAccountInfoPositiveWithObjectTest" />
+        <item itemvalue="JUnit.GetAccountTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -93,8 +114,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651699815271</updated>
-      <workItem from="1651699816816" duration="303000" />
+      <workItem from="1651699816816" duration="518000" />
+      <workItem from="1651740517359" duration="599000" />
+      <workItem from="1652288243375" duration="2278000" />
     </task>
+    <task id="LOCAL-00001" summary="add tests and README.md">
+      <created>1651700226006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651700226006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add tests and README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests and README.md" />
   </component>
 </project>
